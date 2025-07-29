@@ -1,9 +1,9 @@
-version: 1.2.8  # Updated from 1.2.1
+version: 1.2.8
 
 balance:
   enabled: true
-  startBalance: 20000
-  autoRefillEnabled: true
-  refillIntervalValue: 30
-  refillIntervalUnit: "days"
-  refillAmount: 10000
+  startBalance: 10000000        # $10 USD worth of tokens for new users
+  autoRefillEnabled: true       # Enable monthly refills
+  refillIntervalValue: 1        # Every 1 month
+  refillIntervalUnit: "months"  # Monthly interval
+  refillAmount: 10000000        # Add $10 USD worth of tokens each month

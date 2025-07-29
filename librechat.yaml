@@ -1,0 +1,16 @@
+version: 1.2.1
+
+# Balance settings for user quotas
+balance:
+  enabled: true
+  startBalance: 20000
+  autoRefillEnabled: false
+  refillIntervalValue: 30
+  refillIntervalUnit: "days"
+  refillAmount: 10000
+
+# Other configurations...
+endpoints:
+  openAI:
+    apiKey: "${OPENAI_API_KEY}"
+    # other settings...
